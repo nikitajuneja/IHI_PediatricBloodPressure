@@ -23,6 +23,7 @@ class bprangecheckercard:
         data=web.input()
         bpstatus=int(data.bpstatus)
         cards = rangeChecker.getCards(bpstatus)
+        return cards
 
 
 
